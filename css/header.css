@@ -66,11 +66,11 @@ header {
 	
 	.nav {
 		width:100%;
-		position:absolute;
 		text-align:center;
 		font-family:'Ribeye', cursive;
 		font-size:1.2rem;
 		color:#4C3010;
+		position:absolute;
 		
 	}
 	
@@ -90,14 +90,6 @@ header {
 		display:inline-block;
 	}
 	
-	/* .nav ul li:nth-child(2) {
-		margin-right:3rem;
-	}
-	
-	.nav ul li:nth-child(3) {
-		margin-left:3rem;
-	} */ 
-	
 	
 	.nav a, 
 	.nav a:link,
@@ -105,7 +97,6 @@ header {
 		display: inline-block;
 		padding: .8rem;
 		width:5.8rem;
-		color:#white;
 		border:none;
 		background:none;
 	}
@@ -114,4 +105,11 @@ header {
 	.nav a:focus,
 	.nav a:active{
 		background:none;
+	}
+	
+	.content{
+		position:absolute;
+		top:250px;
+		margin-left:1rem;
+			
 	}
