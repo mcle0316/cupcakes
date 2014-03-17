@@ -2,7 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Untitled Document</title>
+<title>{{page.title}} - Cupcake Castle</title>
+<meta name="description" content="{{page.meta}}">
+<meta name="handheldfriendly" content="true">
+<meta name="mobileoptimized" content="240">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <link href="../css/typography.css" rel="stylesheet"> 
 <link href="../css/header.css" rel="stylesheet">
 <link href="../css/buttons.css" rel="stylesheet">
@@ -40,7 +44,15 @@
 </header>
 
 
+{% if page.showbanner %}	
+	<div class="banner">
+		<h1>{{page.bannertext}}</h1>
+	</div>
+{% endif %}
+
+
 {{content}}
+
 
 
 

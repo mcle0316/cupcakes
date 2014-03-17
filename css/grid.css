@@ -9,6 +9,17 @@
   -ms-flex-flow: row wrap;
 }
 
+.grid-promo {
+	margin-top:5rem;	
+	background-color:#FAFAE0;
+	padding:1.5rem;
+	width:100%;
+}
+
+.news-grid {
+	padding:1rem;	
+}
+
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
