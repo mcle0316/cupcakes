@@ -1,34 +1,50 @@
 ---
 layout: default
-title: Home
-meta: "All kinds of cakes and cupcakes for any event "
+title: search
 ---
 <div class="content">
 
 
+<ul>
+	{% for cupcake in site.pages %}
+		{% if cupcake.type == 'cupcake' %}
+			<li>
+				<a href="{{cupcake.url}}">
+				<img src="{{site.baseurl}}/images/{{cupcake.image}}" alt="">
+				{{cupcake.title}}
+				</a>
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
 
-<h1>Featured Cupcakes</h1>
 
-<div class="media">
-	<div class="media-img"> 
-		<img src="../images/red-velvet.jpg" alt="red velvet cupcake">
-	</div>
-	<div class="media-body">
-		<h3> Red Velvet Cupcake</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.<a href="#">Order Now</a></p>
-	</div>
-</div>
+<ul>
+	{% for cookies in site.pages %}
+		{% if cookies.type == 'cookies' %}
+			<li>
+				<a href="{{cookies.url}}">
+				<img src="{{site.baseurl}}/images/{{cookies.image}}" alt="">
+				{{cookies.title}}
+				</a>
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
 
-<div class="media">
-	<div class="media-img"> 
-		<img src="../images/Chocolate-Peanut-Butter.jpg" alt="red velvet cupcake">
-	</div>
-	<div class="media-body">
-		<h3>Chocolate Peanut Butter</h3>
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-	</div>
-</div>
 
+<ul>
+	{% for pies in site.pages %}
+		{% if pies.type == 'pies' %}
+			<li>
+				<a href="{{pies.url}}">
+				<img src="{{site.baseurl}}/images/{{pies.image}}" alt="">
+				{{pies.title}}
+				</a>
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>
 
 
 

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<h1>Cupcakes</h1>
+	</div>
+</div>
+
+<ul>
+	{% for cupcake in site.pages %}
+		{% if cupcake.type == 'cupcake' %}
+			<li>
+				<a href="{{cupcake.url}}">
+				<img src="{{site.baseurl}}/images/{{cupcake.image}}" alt="">
+				{{cupcake.title}}
+			</li>
+		{% endif %}	
+	{% endfor %}
+</ul>

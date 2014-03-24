@@ -2,7 +2,7 @@
 layout: default
 title: Canadian Maple 
 meta: white cake with maple icing 
-type: cupcakes
-image: 
+type: cupcake
+image: images/cupcake-1.jpg
 ---
 

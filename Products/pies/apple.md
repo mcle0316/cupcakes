@@ -3,6 +3,6 @@ layout: default
 title: Lemon Meringue
 meta: thick lemon filling with light fluffy meringue 
 type: pies
-image: 
+image: images/red-velvet.jpg
 ---
 
