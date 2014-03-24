@@ -7,13 +7,13 @@
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="../../cupcakes/css/typography.css" rel="stylesheet"> 
-<link href="../../cupcakes/css/header.css" rel="stylesheet">
-<link href="../../cupcakes/css/buttons.css" rel="stylesheet">
-<link href="../../cupcakes/css/bucket.css" rel="stylesheet">
-<link href="../../cupcakes/css/product-list.css" rel="stylesheet">
-<link href="../../cupcakes/css/footer.css" rel="stylesheet">
-<link href="../../cupcakes/css/grid.css" rel="stylesheet">
+<link href="../css/typography.css" rel="stylesheet"> 
+<link href="../css/header.css"rel="stylesheet">
+<link href="../css/buttons.css" rel="stylesheet">
+<link href="../css/bucket.css" rel="stylesheet">
+<link href="../css/product-list.css" rel="stylesheet">
+<link href="../css/footer.css" rel="stylesheet">
+<link href="../css/grid.css"rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Ribeye' rel='stylesheet' type='text/css'>
 
 </head>
@@ -33,12 +33,23 @@
 <div>
 <nav class="nav nav-top">
 	<ul>
-		<li><a  href="{{site.baseurl}}/">Home</a></li>
-		<li><a  href="{{site.baseurl}}/products/">products</a></li>
-		<li><a  href="{{site.baseurl}}/news/">News</a></li>
-		<li><a  href="{{site.baseurl}}/thank-you/">Thanks</a></li>
+		<li><a  href="../index.html">Home</a></li>
+		<li><a  href="../products/index.html">Products</a></li>
+		<li><a  href="../news.html">News</a></li>
+		<li><a  href="../thank-you.html">Thanks</a></li>
 	</ul>
 </nav>
+
+</div>
+
+<div class="btns">
+	<!-- HTML for SEARCH BAR -->
+	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="search.html">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+	<div class="tfclear"></div>
+	</div>
 
 </div>
 

@@ -44,7 +44,9 @@
 }
 
 #tfheader{
-		background-color:#FAFAE0;
+		position: absolute;
+		top:165px;
+		right:2px;
 	}
 	#tfnewsearch{
 		float:right;
