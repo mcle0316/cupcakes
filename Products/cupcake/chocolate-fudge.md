@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: product
 title: Chocolate Fudge 
-meta: Rich chocolate with cchocolate fudge icing
+meta: Rich chocolate with chocolate fudge icing
 type: cupcake
-image: images/cupcake-2.jpg
+image: cupcake/cupcake-2.jpg
 ---
 
+Chocolate cake swirled filled with chunks of melted fudge, topped off with thick fudge icing. 

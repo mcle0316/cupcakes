@@ -29,6 +29,10 @@
   word-spacing: -0.43em;
 }
 
+.cart {
+	display:inline;	
+}
+
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -48,6 +52,10 @@
   width: 90%;
   margin:1rem;
   
+}
+
+.pro-image {
+	width:50%;
 }
 
 

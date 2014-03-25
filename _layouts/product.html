@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<h1>{{page.name}}</h1>
+<div class="product content-2">
 
-<dl>
-	<dt></dt>
-	<dd>{{page.time_period}}</dd>
-	<dt></dt>
-	<dd>{{page.diet}}</dd>
-</dl>
-
-{{content}}
+	<div class="product-margin">
+		<div class="media-img media-img-stacked">
+		  <img class="pro-image" src="{{site.baseurl}}/images/{{page.image}}"< alt="#">
+		</div>
+		<div class="media-body">
+		  <h2 class="mega space-none">{{page.title}}</h2>
+		  {{content}}
+		</div>
+			<a class="btn" href="{{site.baseurl}}/cart.html">Order Now</a>
+	</div>
+</div>
