@@ -1,6 +1,7 @@
 User Report
 
-	Tasks
+User testing was conducted by Jenna McLean on March 24, 2014 between the times of 9:00am and 11:00am with the following participants:
+
 	
 	1. Check out the latest news
 	
@@ -28,3 +29,14 @@ User Report
 	User #2 : Search > red velvet cupcake > order now
 	
 	User #3 : Products > cupcakes > Peanut butter > order now **asked why there is a no add to cart button. 
+	
+	
+	
+	Changes: 
+	
+	Add picture to the cookies page. 
+	
+	Change the button "order now" to "add to cart" 
+	
+	Fix the broken links for the news page. 
+	

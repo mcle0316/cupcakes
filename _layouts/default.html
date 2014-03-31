@@ -20,7 +20,7 @@
 
 <body>
 
-<header> 
+<header role="banner"> 
 
 <div class="wrapper">
 	<header>
@@ -28,10 +28,10 @@
 		<div class="right">Cupcake</div>
 	</header>
 	
-<div class="logo-container"> <img src="{{site.baseurl}}/images/logo-placeholder.jpg" alt="logo"> </div>
+<div class="logo-container"> <img src="{{site.baseurl}}/images/logo-placeholder.jpg" alt=""> </div>
 	
 <div>
-<nav class="nav nav-top">
+<nav class="nav nav-top" role="navigation">
 	<ul>
 		<li><a  href="{{site.baseurl}}/">Home</a></li>
 		<li><a  href="{{site.baseurl}}/products/">Products</a></li>
@@ -43,10 +43,11 @@
 </div>
 
 <div class="btns">
+	
 	<!-- HTML for SEARCH BAR -->
 	<div id="tfheader">
 		<form id="tfnewsearch" method="get" action="{{site.baseurl}}/search.html">
-		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton" role="search">
 		</form>
 	<div class="tfclear"></div>
 	</div>
@@ -75,3 +76,5 @@
 </body>
 </html>
 
+
+<!--** footer copyright info : role=" --> 
