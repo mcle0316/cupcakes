@@ -6,3 +6,4 @@ type: cookies
 image: cookies/cookie-2.jpg
 ---
 
+For chocolate lovers. A chocolate cookie with big chunks of melted chocolate. 

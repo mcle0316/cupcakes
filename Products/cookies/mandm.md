@@ -6,3 +6,4 @@ type: cookies
 image: cookies/cookie-4.jpg
 ---
 
+Soft vanilla cookie filled with crunchy M&M's. 

@@ -6,4 +6,4 @@ type: cookies
 image: cookies/cookie-3.jpg
 ---
 
-This is a chocolate cupcake with peanut butter icing!
+This is a classic peanut butter cookie topped off with a little reeses peanut butter cup in every one. 

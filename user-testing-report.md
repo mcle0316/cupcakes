@@ -24,7 +24,7 @@ User testing was conducted by Jenna McLean on March 24, 2014 between the times o
 	
 	3. Add an item to your cart
 	
-	User #1 : product page > cookies > chocolate chip cookie > order now  **no pictures for cookies 
+	User #1 : product page > cookies > chocolate chip cookie > order now  **no pictures for cookies **missing description on product page 
 	
 	User #2 : Search > red velvet cupcake > order now
 	
@@ -39,4 +39,6 @@ User testing was conducted by Jenna McLean on March 24, 2014 between the times o
 	Change the button "order now" to "add to cart" 
 	
 	Fix the broken links for the news page. 
+	
+	add descriptions to cookies
 	
