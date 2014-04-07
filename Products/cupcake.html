@@ -15,7 +15,7 @@ layout: default
 		{% if cupcake.type == 'cupcake' %}
 			<li>
 				<a href="{{cupcake.url}}">
-				<img src="{{site.baseurl}}/images/{{cupcake.image}}" alt="">
+				<img src="{{site.baseurl}}/images/{{cupcake.image}}" alt="{{cupcake.title}}">
 				{{cupcake.title}}
 			</li>
 		{% endif %}	
