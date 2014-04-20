@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 h1, .exa {
   font-size: 3.0518rem;
   line-height: 1.4746;
+  text-align:center;
 }
 
 h2, .peta {

@@ -3,19 +3,16 @@ layout: default
 ---
 
 <div class="content-2">
-<div class="grid">
-	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
 		<h1>Cookies</h1>
-	</div>
-</div>
 
-<ul>
+<ul class="product-grid">
 	{% for cookies in site.pages %}
 		{% if cookies.type == 'cookies' %}
 			<li>
 				<a href="{{cookies.url}}">
-				<img src="{{site.baseurl}}/images/{{cookies.image}}" alt="">
+				<img src="{{site.baseurl}}/images/{{cookies.image}}" alt="cookie image">
 				{{cookies.title}}
+				</a>
 			</li>
 		{% endif %}	
 	{% endfor %}

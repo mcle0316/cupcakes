@@ -1,10 +1,10 @@
-<ul>
+<ul class="product-grid">
 	{% for items in site.pages %}
 		{% if items.color == 'yellow' %}
 			<li>
 				<img src="{{site.baseurl}}/images/{{items.image}}" alt="">
 				{{content}}
-				<h3>{{items.title}}</h3>
+				{{items.title}}
 			</li>
 		{% endif %}
 	{% endfor %}

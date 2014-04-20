@@ -32,13 +32,13 @@ User testing was conducted by Jenna McLean on March 24, 2014 between the times o
 	
 	
 	
-	Changes: 
+	## Trends 
 	
 	Add picture to the cookies page. 
 	
 	Change the button "order now" to "add to cart" 
 	
-	Fix the broken links for the news page. 
+	Fix the broken links for the news page and the thanks page after buying. 
 	
 	add descriptions to cookies
 	

@@ -40,7 +40,7 @@
 }
 
 .btns {
-	margin:1rem;	
+	/*margin:1rem;	*/
 }
 
 #tfheader{
@@ -50,7 +50,8 @@
 	}
 	#tfnewsearch{
 		float:right;
-		padding:20px;
+		margin:-23px 20px 0 0;
+		
 	}
 	.tftextinput{
 		margin: 0;
