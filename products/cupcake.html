@@ -10,7 +10,7 @@ layout: default
 	{% for cupcake in site.pages %}
 		{% if cupcake.type == 'cupcake' %}
 			<li>
-				<a href="{{cupcake.url}}">
+				<a href="{{site.baseurl}}{{cupcake.url}}">
 				<img src="{{site.baseurl}}/images/{{cupcake.image}}" alt="cupcake image">
 				{{cupcake.title}}
 				</a>
