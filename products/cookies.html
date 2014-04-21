@@ -1,6 +1,5 @@
 ---
 layout: default
-title: cookies
 ---
 
 <div class="content-2">
@@ -10,7 +9,7 @@ title: cookies
 	{% for cookies in site.pages %}
 		{% if cookies.type == 'cookies' %}
 			<li>
-				<a href="{{site.baseurl}}{{cookies.url}}">
+				<a href="{{cookies.url}}">
 				<img src="{{site.baseurl}}/images/{{cookies.image}}" alt="cookie image">
 				{{cookies.title}}
 				</a>
